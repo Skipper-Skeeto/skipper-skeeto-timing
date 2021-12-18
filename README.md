@@ -21,10 +21,11 @@ preferences. Each game section describes if there's anything special to be aware
 There's (for now?) not a "golden route" in this games, it's really up to personal preference. Therefore there is a bit
 of work needed to be done before being able to work with AutoSplit:
 
-1. Create a new folder where all your split images will be placed
-2. Move/copy the images that matches splits you want (for 1st edition of this game, ignore the last split for now)
+1. Create a new folder where all your split images will be placed. Ignore the final split (that stops the timer) for
+now, as it's handled later in the guide
+2. Move/copy the images that matches the splits you want
 3. Order the images alphabetically by renaming them based on their appereances. This can for instance be done by 
-prepending their filenames with `01_`, `02_`, `03_` etc. to their filename
+prepending their filenames with `01_`, `02_`, `03_` etc.
 4. Move/copy the image starting with `start_auto_splitter` - this doesn't need to be renamed
 5. Specific for 1st edition:
    1. Find the image that matches the last scene in your route. Rename the image so it's ordered last, for instance if 
