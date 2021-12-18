@@ -47,3 +47,29 @@ Finally, the list of images are of course not complete, mostly because some even
 The biggest "issue" for now is that there's a big gap between start of the run and the first split, but that's due to 
 it's much easier to trigger task splits (for instance scaring an enemy or helping a friend) compared to picking up an
 item as the items are placed "randomly" in the inventory. 
+
+### Setup
+For setup of AutoSplit, it's recommended just to follow the [Official Guides](https://github.com/Toufool/Auto-Split).
+AutoSplit can be setup in a lot of different ways, but there's a direct integration for LiveSplit - instructions on how 
+to set that up can also be found in the offical guides. If nothing else is specified, use L2 Norm comparison method.
+
+#### Adjust window region
+The images used for splitting should be the "pure" game screen, there's for instance no window frame around them. This 
+can however cause a bit of an issue when running the game in windowed mode or in a virtual machine as there's then added 
+a frame. To adjust this, follow this setup:
+
+1. Start the game
+2. In AutoSplit, select the window you want to monitor
+3. Set the window width and height in AutoSplit to the expected size of the game. This is usually the same size as the 
+images used for splitting, but they could also be different (they are however always expected to be the same ratio)
+4. Make sure the game is in a scene/room/location that is expected to trigger a split. This is usually the first scene, 
+but could as well be another scene later in the game
+5. If needed, skip splits until you get to the split matching the scene showing in the game
+6. Adjust X and Y until the the autosplit triggers. When this happens, the setup should be complete. Note down the 
+values (or save it to settings) as they should be the same the next time you start the game. If it's tricky to find the 
+correct values it can help checking "Show live similarity" - this should be as high as possible
+
+## Questions and issues
+If you have any questions, feel free to ask them in the [Skipper and Skeeto Discord](https://discord.gg/ktPH2sB). Issues
+and requests to other games in the series can be posted there as well, but are also welcome as issues in the
+[Github repository](https://github.com/Skipper-Skeeto/skipper-skeeto-timing/issues).
